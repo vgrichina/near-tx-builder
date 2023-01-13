@@ -131,3 +131,14 @@ class TransactionBuilder {
         return this.transaction;
     }
 }
+
+module.exports = {
+    encodeTransaction,
+    decodeTransaction,
+    TransactionBuilder,
+    PUBLIC_KEY_SCHEMA,
+    ACCESS_KEY_SCHEMA,
+    ACTION_SCHEMA,
+    TRANSACTION_SCHEMA,
+    SIGNED_TRANSACTION_SCHEMA,
+};
