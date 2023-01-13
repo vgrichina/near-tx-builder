@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tap-diff": "^0.1.1",
+    "tape": "^5.6.1"
+  },
+  "dependencies": {
+    "borsh": "https://github.com/near/borsh-js.git#object-style-schema"
+  }
+}
